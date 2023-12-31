@@ -18,7 +18,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 9rem;
+    gap: 7rem;
     font-family: "Roboto", Arial;
 }
 
@@ -29,6 +29,9 @@ section {
     backdrop-filter: blur(4.1px);
     -webkit-backdrop-filter: blur(4.1px);
     border: 1px solid rgba(255, 255, 255, 0.38);
+}
+.hero {
+    padding: 0.5rem 5rem;
 }
 .countdown {
     display: flex;
