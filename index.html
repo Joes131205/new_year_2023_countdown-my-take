@@ -3,12 +3,12 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <title>New Year Countdown</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <section class="hero">
-            <h1>New Year Countdown</h1>
+            <h1>Simple New Year Countdown</h1>
         </section>
         <section class="container">
             <div class="countdown">
@@ -35,10 +35,16 @@
             </div>
         </section>
         <section class="music">
-            <img src="" alt="Vinyl" />
-            <p>Currently Playing : <span id="playing"></span></p>
-            <img src="" alt="Vinyl" />
+            <img src="./assets/image/vinyl.png" alt="Vinyl" />
+            <p>
+                <b>
+                    Currently Playing :
+                    <span id="playing">-</span>
+                </b>
+            </p>
+            <audio id="song"></audio>
+            <img src="./assets/image/vinyl.png" alt="Vinyl" />
         </section>
-        <script src="index.js"></script>
+        <script src="index.js" type="module"></script>
     </body>
 </html>
