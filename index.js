@@ -55,7 +55,7 @@ setInterval(() => {
 
 function setCountdown() {
     setInterval(() => {
-        const nextYearDate = new Date("1 January 2024");
+        const nextYearDate = new Date("1 January 2025");
         const currentDate = new Date();
         const timeDifference = nextYearDate.getTime() - currentDate.getTime();
         if (timeDifference < 0) {
